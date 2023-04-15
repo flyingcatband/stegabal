@@ -1,0 +1,373 @@
+- name: Choonz for Les Batons
+  type: section
+  slug: choonz
+  content:
+  - name: First half
+    type: category
+    slug: first-half
+    content:
+    - name: Scottishe
+      type: set
+      slug: scottishe
+      content:
+      - type: tune
+        abc: |+
+          X:1
+          T:British Swing
+          C:N. Pignol
+          M:4/4
+          L:1/8
+          K:Amin
+          |:A,2E D3E2|C3A,2B,CD-|D2FE DC3|B,3A, G,A,B,G,|
+          A,2E F3E2|C3A,2B,CD-|D2FE DC3|1 B,6 G,2:|2 B,8|:
+          G2Ec2G2E|B3G2EGB|z2EA Bcde-|ed2cB2A2|
+          G2Ec2G2E|B3G2EGB|1 z2AD CD2C/2B,/2|A,B,CD B,4:|2 ADCD- DC2B,|A,B,CD B,4|]
+
+        slug: british-swing
+        file: saxy/british-swing
+    - name: Mazurka
+      type: set
+      slug: mazurka
+      content:
+      - type: tune
+        abc: |+
+          X:1
+          T:Mazurka \`a Cl\'ement
+          C:Philippe Souché
+          R:mazurka
+          M:3/4
+          L:1/8
+          K:Am
+          |:"Am"ef ea- a2 | ef ec- c2 | ef ea ef | ed cA Bc |
+          "G"d2 Bd gf | "C"e2 d2 c2 |1 "E7"BA Bc de | "Am"cB AB cd :|2 "E7"BA Bd cB | "Am"A2 c2 B2 |
+          |: "Am"A3 "G"B3 | "F"c2 cd- dc | "E7"BA Bd cB | "Am"A2 c2 B2 |
+          "Am"A2 E"G"B- BG | "F"c3 d- dc |"E7"BA Bd cB | "Am"A2 z4 :|
+
+        slug: clement
+        file: saxy/clement
+    - name: Waltz
+      type: set
+      slug: waltz
+      content:
+      - type: tune
+        abc: |
+          X:1
+          T:Lawnmowing
+          C:Andy Cutting
+          R:waltz
+          M:3/4
+          L:1/8
+          K:G
+          |:"G"g2 gf ga|"Em"g2 gf gb|"C"g2 fg ba|"D"gf ed ef|
+          "G"g2 gf gb|"Em"g2 fg ba|"C"gf ef ga|1 "D"d3 d ga:|2 "D"d6|
+          "G"z2 B2 d2|"C"G6-|"Am7"G2 G2 A2|"D"D3 E F2|
+          "G"G2 G2 G2|"Bm7"d2 G2 G2|"C"A2 G2 d2|"D"G2 F4|
+          "G"z2 B2 d2|"Em"G6-|"C"G2 G2 B2|"D"D3 E F2|
+          "G"G2 G2 G2|"Bm7"d2 G2 G2|"C"A2 G2 d2|"D"F2 f2 g2|]
+        slug: lawnmowing
+        file: saxy/lawnmowing
+    - name: Rondeau
+      type: set
+      slug: rondeau
+      content:
+      - type: tune
+        abc: |
+          X:1
+          T:Happy Rain
+          C:Toon Van Mierlo
+          M:6/8
+          K:Bb
+          |:"Bb"d2d cdB|"Bb/A"A2 B2 cd|"Eb/C"e2e deg|"Bb/F"f2d "Eb/F"edc|
+          "Bb"d2d cdB-|"Bb/A"BAB cdf|"Eb/C"e2e deg|"Bb/F"[fa]3 dcB::
+          "Eb/C"g2b zag|"F"f2g zfd|"Eb"e6|"Eb/F"cde def|
+          "Gm"g2b a2g|"F"f2g zab|"Eb"c'd'e' "Bb/D"d'2b|"Cm/Eb"c'bg "Eb/F"gfe:|
+        slug: happy-rain
+        file: saxy/happy-rain
+    - name: Waltz 5
+      type: set
+      slug: waltz-5
+      content:
+      - type: tune
+        abc: |+
+          X:1
+          T:Evening Glory
+          C:Toon Van Mierlo
+          M:5/4
+          L:1/4
+          K:Fmaj
+          |:"F"A2cG"a"A|"Bb"F>ED/2C/2 D/2E/2"d"F/2G/2|"C"c2Gc"a"G|"Dm"A3 B/2A/2"E"F/2G/2|
+          "F"A2cG"a"A|"Dm"F>ED/2C/2 DE|"Bb"D2C/2D/2 EC|"C"D>CD/2E/2 FG::
+          "Dm"F>ED/2C/2 "C"cG|"Dm/Bb"A3 B/2A/2F/2G/2|"F"AA/2G/2F/2E/2 "Am"cc|"Bb"dcA GE|
+          "Dm"F>ED/2C/2 AG/2F/2|"Am"ECA, FE|"Bb"D2C/2D/2 EC|"C"D>CD/2E/2 FG:|
+
+        slug: evening-glory
+        file: saxy/evening-glory
+    - name: Bourée 2
+      type: set
+      slug: bourée-2
+      content:
+      - type: tune
+        abc: |+
+          X:1
+          T:Commoner's Lot
+          C:Andy Cutting
+          M:2/4
+          L:1/8
+          K:F
+          |:"F"F>F FG|AG FG/2A/2|"Bb"B>A Bd|"C"cGBA|"F"F>F FG|AG FG/2A/2|"Bb"BF dc-|"C"c4:|
+          "Bb"dB fe-|"C"ed cB|"F"c2 "Gm"Bc/2B/2|"Am"AF GA|"Bb"B>D DB|"Gm"BAGF|"Bb"Bc AG-|"C"GA Bc|
+          "Bb"dB fe-|"C"ed cd/2e/2|"F"f>c cA|"Bb"d2 GA|"Gm"B>A GF|"Bb"BAGF|"Gm"BA Bc-|"C"c4|
+
+        slug: commoners-lot
+        file: saxy/commoners-lot
+    - name: Gavotte de l'aven
+      type: set
+      slug: gavotte-de-l'aven
+      content:
+      - type: tune
+        abc: |+
+          X:1
+          T:Very Jeune
+          C:Hartwin Dhoore
+          M:4/4
+          L:1/8
+          K:G
+          |:"G"B2B/2c/2d"C"G2zG|"Em7"GDGB "D"AG A/2B/2c|"G"B2 B/2c/2d "C"G2 z"Em7"g|"D"fB"C"ec "D"dg A/2B/2c::
+          "C"e2 e/2f/2g "Bm"d2 z"Am"c|cBBG "D"A/2B/2c AB/2c/2|"C"e2 e/2f/2g "Bm"d2 z"Am"c'| [1c'"D"bbg "G"g2 f/2g/2f/2d/2:| [2c'"D"bbg "G"g3 z|]
+
+        slug: very-jeune
+        file: saxy/very-jeune
+    - name: Laridé 6
+      type: set
+      slug: laridé-6
+      content:
+      - type: tune
+        abc: |
+          X:1
+          T:Boules Et Guirlandes
+          R:Ridée Six Temps
+          L:1/8
+          K:Dm
+          M:none
+          M:none
+          M:6/4
+          D>E F>A G2 F>G A>F D>C | D>E F>A (3GAG F>G A>F D2 |
+          D>E F>A (3GAG F>G A>F D>C | D>E F>A (3GAG F>G A>F D>D ||
+          B2 G>B A>G F>E D>E F>A | B2 G>B A>G F>E F>A G>A |
+          B2 G>B A>G F>E D>E F>A | B2 G>B A>G F>E F>A G>C |]
+        slug: boules-et-guirlandes
+        file: saxy/boules-et-guirlandes
+      - type: tune
+        abc: |
+          X:1
+          T:Ridée Six Temps
+          R:Ridée Six Temps
+          L:1/8
+          K:Am
+          M:none
+          M:none
+          M:none
+          M:6/4
+          |:A>E A>B c2 B>c d>c B>c|A>E A>B c2 B>c d>c B2::
+          d>e A>d e>A c>A B/2c/2d B>G|d>e A>d e>A c>A B>c A2:|
+        slug: laride-lunasa
+        file: saxy/laride-lunasa
+    - name: Circassian
+      type: set
+      slug: circassian
+      content:
+      - type: tune
+        abc: |
+          X:1
+          T:Pericondine
+          R:jig
+          M:6/8
+          C:Trad. Belgium?
+          L:1/8
+          K:Cmaj
+          |: "C"c2d efe | dcd c2G | "F"c2d efe | "G"dcd c3 :|
+          |: "Am"cBc ABc | "G"d2c BAG | "F"cBc ABc | "G"d2B c3 :|
+          |: "C"g2e g2e | "F"def e2c | "C"g2e g2e | "F"fed c3 :|
+          |: "Am"A2c G2c | "F"def e2c | "Am"A2c G2c | "G"ded c3 :|
+        slug: pericondine
+        file: saxy/pericondine
+  - name: Second half
+    type: category
+    slug: second-half
+    content:
+    - name: Chappelloise
+      type: set
+      slug: chappelloise
+      content:
+      - type: tune
+        abc: |+
+          X:1
+          T:Christy Barry's
+          Z:Jon Kiparsky
+          S:https://thesession.org/tunes/843#setting843
+          R:jig
+          M:6/8
+          L:1/8
+          K:Gmaj
+          |:G3 BAG|A2B d2e|ged BAG|A3 BGE|
+          G3 BAG |A2B d2e|ged BAG|A2G G3:|
+          g3 efg|a3 d2e|ged BAG|A3 BGE|
+          G3 BAG |A2B d2e|ged BAG|A2G G3:|
+
+        slug: christy-barrys
+        file: saxy/christy-barrys
+      - type: tune
+        abc: "X:3\nT:Mrs Heidi Hendi\nR:jig\nM:6/8\nL:1/8\nK:Emin\n|:EGB c2B-|B2B ABG|FGA B2B|ABG AFG|\nEGB c2B-|B2B ABG|FGA BGB|FBG BFB:|\n|:E2F GFE|FGA d2B|BAG FGA|BGB FBG|\nE2F GFE|FGA d2B|BAG FGA|BGB FBG:| \n"
+        slug: mrs-heidi-hendy
+        file: saxy/mrs-heidi-hendy
+    - name: Waltz
+      type: set
+      slug: waltz
+      content:
+      - type: tune
+        abc: |+
+          X:1
+          T:Le retour des hirondelles
+          C:Toon Van Mierlo
+          K:C
+          M:none
+          M:3/4
+          L:1/4
+          |:"C"cEF|"C/B"G2D|"C/A"EFA|"C/F"G F/2E/2 D/2C/2|
+          "C/D"D/2D/2 C/2D/2 E/2F/2|"C/E"BcG|"C/F"Gce/2c/2|"C/G"d2B/2c/2::
+          "C/A"E F/2E/2 F/2A/2|"C/B"G2 A/2B/2|"C/F"c3|cEF|
+          "C/G"D2G|"C/A"GF/2E/2C|"C/E"CcB|"C/F"A3:|
+
+        slug: hirondelles
+        file: saxy/hirondelles
+    - name: Bourée 2
+      type: set
+      slug: bourée-2
+      content:
+      - type: tune
+        abc: |
+          X:1
+          T:De montford
+          C:Jo Freya
+          M:2/4
+          K:Dm
+          L:1/8
+          |:"Dm7"DA- AD|"Gm7"B2 D"Dm7"A-|AF GA|"C"GF EF|
+          "Dm7"DA- AD|"Gm7"B2 D"F/A"A-|AF "Bb"GA|"C"G4::
+          "Am7"E>F GE-|EG FE|"Gm7"F>E DF-|F/2E/2D EF|
+          "Am7"E>F GE-|EG FE|1 "Bb"F2 "C"G2|"F"A/2B/2A/2G/2 FE:|2 "Bb"F2 "C"E2|"Dm"D4|]
+        slug: de-montford
+        file: saxy/de-montford
+    - name: Hanter dro
+      type: set
+      slug: hanter-dro
+      content:
+      - type: tune
+        abc: |
+          X:1
+          T:Hanter-dro
+          Z:midi2abc
+          M:6/4
+          L:1/8
+          R:Hanter-dro
+          Q:1/4=200
+          K:G
+          G2 Bc d2 e2 d4|g2 fe d2 B2 c2 d2|
+          G2 Bc d2 e2 d4|g2 fe d2 B2 d4|
+          |:d2 ed G2 A2 B2 G2|AB c2 B2 G2 A4|
+          d2 ed G2 A2 B2 G2|AB c2 B2 A2 G4:|
+        slug: hanter-dro
+        file: saxy/hanter-dro
+    - name: Waltz 8
+      type: set
+      slug: waltz-8
+      content:
+      - type: tune
+        abc: |
+          X:1
+          T:Chameleon
+          C:Hartwin Dhoore
+          R:
+          M:8/8
+          L:1/16
+          K:Dm
+          "Dm"D3EF2 "Am"E4C2- C2A,C|"Bb"D3EF2 "C"G4G2 F2E2|"Dm"D3EF2 "Am"E4C2- C2A,C|"Bb"G2G2F2 "Am"A4G2 F2E2|
+          "Dm"D3EF2 "Am"E4C2- C2A,C|"Bb"D3EF2 "C"G4A2 B2G2|"Bb"d2A2G2 B4A2 G2F2|"Am"c2G2F2 A4G2 F2E2|
+          "Bb"F2F2A2 "C"G4C2 CEGE|"Dm"F2AFBF "Am"c3dBA G2FE|"Bb"D4F2 "C"E4C2 A,CEC|"Dm"D6- D3CA,C DEFG|
+          "Bb"F2F2A2 "C"G4C2 CEGE|"Dm"F2AFBF "Am"c3dBA G2FE|"Bb"D4F2 "C"E4C2 A,CEC|"Dm"D6- D6 z4|
+        slug: chameleon
+        file: saxy/chameleon
+    - name: Bourée de much stamping
+      type: set
+      slug: bourée-de-much-stamping
+      content:
+      - type: tune
+        abc: |+
+          X:17
+          T:Bourrée Tournante des Grandes Poteries
+          R:Bourree
+          C:Trad. Massif Central, France
+          M:3/8
+          L:1/8
+          K:G
+          B/2c/2|:"G"dBd |d/2B/2GB/2c/2|dBd|d2 A/2B/2|"C"cAA|A2 G/2A/2|"D"BGG|1 G2 B/2c/2:|2 GFE|
+          |:"G"D2E|D2E|DGA|B3|"C"AGA|GFE|1 "D"DED|B2G:|2 "D"DBA|G2|]
+
+        slug: grandes-potteries
+        file: saxy/grandes-potteries
+    - name: Laride
+      type: set
+      slug: laride
+      content:
+      - type: tune
+        abc: |
+          X:1
+          T:Laride
+          M:4/4
+          L:1/8
+          K:Em
+          |:E4B4|A2c2B4|A3B A2F2|1 G2A2 B4:|2 G2F2 E4|:
+          E4G4|G2E2F4|1 F3G A2F2| G2A2 B4:|2 F3G A2B2| G2 F2 E4|]
+        slug: laride
+        file: saxy/laride
+    - name: Mazurka
+      type: set
+      slug: mazurka
+      content:
+      - type: tune
+        abc: |
+          X:1
+          T:Parachute
+          R:mazurka
+          C:Hartwin Dhoore
+          M:3/4
+          L:1/8
+          K:Ebmaj
+          |:"Eb" GF GB de| B3 G FG | "Ab" A2 d3e| "Bb" fd BA GF |
+           [1 "Eb" GF GB de | B3G FG | "Ab" C2 E3C | "Bb" F3 F GA :|
+           [2 "Ab" GF GB de | B3G FG | "F/A" C2 E3F | "Bb" D3 D ED |]
+          |: "Ab" Cc B2 CA | G2 CG F2 | "Bb" DB, CD EF | "Cm" ED C2 z2 |
+          "Ab" Cc B2 CA | G2 CG F2 | "Bb" DB, CD ED | "Cm" C6 |
+          "Ab" Cc B2 CA | G2 CG F2 | "Bb" DB, CD EF | "Gm" ED EF GA |
+          "Ab" Cc B2 CA | G2 CG F2 | "Gm" DB, CD EF | "Ab"ED EF "Bb" GA |]
+        slug: parachute
+        file: saxy/parachute
+    - name: Scottishe
+      type: set
+      slug: scottishe
+      content:
+      - type: tune
+        abc: |
+          X:1
+          T:Hellebore
+          R:reel
+          M:4/4
+          L:1/8
+          K:Gm
+          |:"Gm"DGBd c2AG|"Cm"BcBG A2AG|"D"^FGAG F2DF|^FGAG BGAG|
+          "Gm"DGBd c2AG|"Cm"BcBG A2AG|"D"^FGAG F2DF|^FGAF G4:|
+          |:"Gm"d3A c2"Gm/A?"AG|"Bb"BcBG A3G|"Cm"^FGAG F2DF|"D"^FGAG BGA2|
+          "Gm"d3A c2AG|"Bb"BcBG A3G|"Cm"^FGAG F2DF|"D"^FGAF G4:|
+        slug: hellebore
+        file: saxy/hellebore
+

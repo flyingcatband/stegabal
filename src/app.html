@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/logo_512.png" />
+		<link rel="apple-touch-icon" href="%sveltekit.assets%/logo_512.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="manifest" crossorigin="use-credentials" href="%sveltekit.assets%/manifest.json" />
+		<link rel="stylesheet" type="text/css" href="%sveltekit.assets%/fonts/silkscreen/silkscreen.css" />
+		%sveltekit.head%
+		<script>
+		if ('serviceWorker' in navigator) {
+  // Register a service worker hosted at the root of the
+  // site using the default scope.
+  navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+    console.log('Service worker registration succeeded:', registration);
+  }, /*catch*/ function(error) {
+    console.log('Service worker registration failed:', error);
+  });
+} else {
+  console.log('Service workers are not supported.');
+}
+</script>
+	</head>
+	<body>
+		<div>%sveltekit.body%</div>
+	</body>
+</html>

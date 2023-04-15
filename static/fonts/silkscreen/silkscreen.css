@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Silkscreen';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Silkscreen'), url('./slkscr.woff') format('woff');
+}
+@font-face {
+    font-family: 'Silkscreen';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Silkscreen'), url('./slkscrb.woff') format('woff');
+}
+@font-face {
+    font-family: 'Silkscreen Expanded';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Silkscreen Expanded'), url('./slkscre.woff') format('woff');
+}
+@font-face {
+    font-family: 'Silkscreen Expanded';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Silkscreen Expanded'), url('./slkscreb.woff') format('woff');
+}
