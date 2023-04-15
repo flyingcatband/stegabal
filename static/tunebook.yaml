@@ -57,13 +57,13 @@
           R:waltz
           M:3/4
           L:1/8
-          K:G
-          |:"G"g2 gf ga|"Em"g2 gf gb|"C"g2 fg ba|"D"gf ed ef|
-          "G"g2 gf gb|"Em"g2 fg ba|"C"gf ef ga|1 "D"d3 d ga:|2 "D"d6|
-          "G"z2 B2 d2|"C"G6-|"Am7"G2 G2 A2|"D"D3 E F2|
-          "G"G2 G2 G2|"Bm7"d2 G2 G2|"C"A2 G2 d2|"D"G2 F4|
-          "G"z2 B2 d2|"Em"G6-|"C"G2 G2 B2|"D"D3 E F2|
-          "G"G2 G2 G2|"Bm7"d2 G2 G2|"C"A2 G2 d2|"D"F2 f2 g2|]
+          K:Cmaj
+          |:"C"c2 cB cd|"Am"c2 cB ce|"F"c2 Bc ed|"G"cB AG AB|
+          "C"c2 cB ce|"Am"c2 Bc ed|"F"cB AB cd|1 "G"G3 G cd:|2 "G"G6||
+          "C"z2 E2 G2|"F"C6-|"Dm7"C2 C2 D2|"G"G,3 A, B,2|
+          "C"C2 C2 C2|"Em7"G2 C2 C2|"F"D2 C2 G2|"G"C2 B,4|
+          "C"z2 E2 G2|"Am"C6-|"F"C2 C2 E2|"G"G,3 A, B,2|
+          "C"C2 C2 C2|"Em7"G2 C2 C2|"F"D2 C2 G2|"G"B,2 B2 c2|]
         slug: lawnmowing
         file: saxy/lawnmowing
     - name: Rondeau
