@@ -18,10 +18,10 @@
           M:4/4
           L:1/8
           K:Amin
-          |:A,2E D3E2|C3A,2B,CD-|D2FE DC3|B,3A, G,A,B,G,|
-          A,2E F3E2|C3A,2B,CD-|D2FE DC3|1 B,6 G,2:|2 B,8|:
-          G2Ec2G2E|B3G2EGB|z2EA Bcde-|ed2cB2A2|
-          G2Ec2G2E|B3G2EGB|1 z2AD CD2C/2B,/2|A,B,CD B,4:|2 ADCD- DC2B,|A,B,CD B,4|]
+          |:A,2ED-D2E2|C3A,- A,B,CD-|D2FE DC3|B,3A, G,A,B,G,|
+          A,2EF-F2E2|C3A,- A,B,CD-|D2FE DC3|1 B,6 G,2:|2 B,8|:
+          G2Ec- cG2E|B3G- GEGB|z2EA Bcde-|ed2cB2A2|
+          G2Ec- cG2E|B3G- GEGB|1 z2AD CD2C/2B,/2|A,B,CD B,4:|2 ADCD- DC2B,|A,B,CD B,4|]
 
         slug: british-swing
         file: saxy/british-swing
