@@ -23,7 +23,20 @@
 	{/each}
 {/if}
 
+<footer>
+	Site made with ❤ by <a href="https://flyingcat.dance/services#websites">Flying Cat</a>
+</footer>
+
 <style>
+	footer {
+		text-align: center;
+		align-self: center;
+		margin-bottom: 1em;
+		font-size: small;
+		padding: 1em;
+		color: #555;
+	}
+
 	div {
 		display: flex;
 		flex-wrap: wrap;

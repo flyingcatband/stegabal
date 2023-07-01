@@ -3,29 +3,22 @@
 	import BackButton from '$lib/BackButton.svelte';
 </script>
 
-<svelte:head><title>Flying Cat Choonbook</title></svelte:head>
+<svelte:head><title>Stegabal Tunebook</title></svelte:head>
 
 <main>
-	<h1><a href="/">Choonbook!</a></h1>
+	<h1><a href="/">Stegabal!</a></h1>
+	<small>Stomp stomp stomp!</small>
 	{#if $page.url.pathname.split('/').length > 3}
 		<a href="."><BackButton /></a>
 	{/if}
 	<slot />
 </main>
-<footer>
-	Site made with ❤ by <a href="https://flyingcat.dance/services#websites">Flying Cat</a>
-</footer>
 
 <style>
-	footer {
-		margin-top: auto;
-		align-self: center;
-		margin-bottom: 1em;
-		font-size: small;
-		padding: 1em;
-		color: #555;
+	small {
+		font-style: italic;
+		font-family: silkscreen;
 	}
-
 	a :global(svg) {
 		position: absolute;
 		z-index: 10;

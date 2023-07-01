@@ -169,17 +169,17 @@
                 z"Bb"D G/2A/2B/2d/2 "F/A"c3B|"Bb/G"BA"Bb/C"GF "F"F2-F-"F/E"F:|
               slug: les-deux-freres
               file: saxy/les-deux-freres
-        - name: Laridé 6
+        - name: Slängpolska
           type: set
-          slug: laridé-6
+          slug: slangpolska
           content:
             - type: tune
               abc: |
                 X:1
-                T:Slängpolska
+                T:Polska Från Mörkö
                 K:A
                 C:Unknown
-                Z:From Oiseaux de nuit, track 1 (Duo Tanghe-Coudroy)
+                %Z:From Oiseaux de nuit, track 1 (Duo Tanghe-Coudroy)
                 M:3/4
                 L:1/8
                 Q: 1/4=107
