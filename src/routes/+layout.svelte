@@ -12,8 +12,20 @@
 	{/if}
 	<slot />
 </main>
+<footer>
+	Site made with ❤ by <a href="https://flyingcat.dance/services#websites">Flying Cat</a>
+</footer>
 
 <style>
+	footer {
+		margin-top: auto;
+		align-self: center;
+		margin-bottom: 1em;
+		font-size: small;
+		padding: 1em;
+		color: #555;
+	}
+
 	a :global(svg) {
 		position: absolute;
 		z-index: 10;

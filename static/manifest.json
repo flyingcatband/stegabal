@@ -1,7 +1,7 @@
 {
-	"short_name": "cat-choonbook",
-	"name": "cat-choonbook",
-	"start_url": "/tunebook/tunebook",
+	"short_name": "Stegabal",
+	"name": "Stegabal",
+	"start_url": "/",
 	"icons": [{ "src": "logo_512.png", "type": "image/png", "sizes": "512x512" }],
 	"background_color": "#FFFFFF",
 	"display": "standalone",
