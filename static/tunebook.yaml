@@ -6,28 +6,30 @@
       type: category
       slug: choonz
       content:
-        - name: Scottishe
+        - name: An dro
           type: set
-          slug: scottishe
+          slug: an-dro-0
           content:
             - type: tune
-              abc: |+
-                X: 1
-                T: At Halsway
-                C: Andy Cutting
-                R: Scottishe
-                M: 4/4
-                K: G
-                "G"G2GA "D"F2FG|"C"E2e2 "D"dBAB|"G"G2GA "D"F2FG|"C"E2ED "D"EDEF|
-                "G"G2GA "D"F2FG|"C"E2e2 "D"dBAB|"G"G2AB "C"cBAG|1 Bz"D"A2- A2GF:|2
-                Bd"D"A2- A2GF|:"C"E2c2- c2AB|"Am7"cBAG F2EF|"Bm7"D2d2- d2Bc|
-                "G"dcBA "Em"G2AB|"Am7"c2E2- E2AB|"C"cBAG "D"F2GA|"G"B2AB "C"cBAG|1
-                Bz"D"A2- A2GF:|2Bd"D"A2- A4|]
-              slug: at-halsway
-              file: saxy/at-halsway
+              abc: |
+                X:20
+                T:An dro
+                C:trad
+                A:Bretagne
+                O:France
+                M:2/2
+                L:1/4
+                Q:1/4=180
+                R:An-dro
+                K:Gm
+                Gdd d/2e/2|cc/2d/2B2|A/2B/2c/2A/2 BG|G/2F/2G/2A/2 BA|
+                Gddd/2e/2|cc/2d/2B2|A/2B/2c/2A/2 BG|B/2G/2A/2F/2 G2:|
+                |:A/2B/2c/2A/2 BG|G/2F/2G/2A/2 BA|A/2B/2c/2A/2 BG|B/2G/2A/2F/2 G2:|
+              slug: an-dro
+              file: saxy/an-dro
         - name: Mazurka
           type: set
-          slug: mazurka
+          slug: mazurka-0
           content:
             - type: tune
               abc: |+
@@ -47,7 +49,7 @@
               file: saxy/clement
         - name: Waltz
           type: set
-          slug: waltz
+          slug: waltz-0
           content:
             - type: tune
               abc: |
@@ -66,30 +68,28 @@
                 "C"C2 C2 C2|"Em7"G2 C2 C2|"F"D2 C2 G2|"G"B,2 B2 c2|]
               slug: lawnmowing
               file: saxy/lawnmowing
-        - name: An dro
+        - name: Scottishe
           type: set
-          slug: an-dro
+          slug: scottishe-0
           content:
             - type: tune
-              abc: |
-                X:20
-                T:An dro
-                C:trad
-                A:Bretagne
-                O:France
-                M:2/2
-                L:1/4
-                Q:1/4=180
-                R:An-dro
-                K:Gm
-                Gdd d/2e/2|cc/2d/2B2|A/2B/2c/2A/2 BG|G/2F/2G/2A/2 BA|
-                Gddd/2e/2|cc/2d/2B2|A/2B/2c/2A/2 BG|B/2G/2A/2F/2 G2:|
-                |:A/2B/2c/2A/2 BG|G/2F/2G/2A/2 BA|A/2B/2c/2A/2 BG|B/2G/2A/2F/2 G2:|
-              slug: an-dro
-              file: saxy/an-dro
+              abc: |+
+                X: 1
+                T: At Halsway
+                C: Andy Cutting
+                R: Scottishe
+                M: 4/4
+                K: G
+                "G"G2GA "D"F2FG|"C"E2e2 "D"dBAB|"G"G2GA "D"F2FG|"C"E2ED "D"EDEF|
+                "G"G2GA "D"F2FG|"C"E2e2 "D"dBAB|"G"G2AB "C"cBAG|1 Bz"D"A2- A2GF:|2
+                Bd"D"A2- A2GF|:"C"E2c2- c2AB|"Am7"cBAG F2EF|"Bm7"D2d2- d2Bc|
+                "G"dcBA "Em"G2AB|"Am7"c2E2- E2AB|"C"cBAG "D"F2GA|"G"B2AB "C"cBAG|1
+                Bz"D"A2- A2GF:|2Bd"D"A2- A4|]
+              slug: at-halsway
+              file: saxy/at-halsway
         - name: Waltz 5
           type: set
-          slug: waltz-5
+          slug: waltz-5-0
           content:
             - type: tune
               abc: |+
@@ -108,7 +108,7 @@
               file: saxy/evening-glory
         - name: Bourée 2
           type: set
-          slug: bourée-2
+          slug: bourée-2-0
           content:
             - type: tune
               abc: |+
@@ -126,7 +126,7 @@
               file: saxy/commoners-lot
         - name: Gavotte de l'aven
           type: set
-          slug: gavotte-de-l'aven
+          slug: gavotte-de-l'aven-0
           content:
             - type: tune
               abc: |+
@@ -171,7 +171,7 @@
               file: saxy/les-deux-freres
         - name: Slängpolska
           type: set
-          slug: slangpolska
+          slug: slangpolska-0
           content:
             - type: tune
               abc: |
@@ -191,7 +191,7 @@
               file: saxy/slangpolska
         - name: Chappelloise
           type: set
-          slug: chappelloise
+          slug: chappelloise-0
           content:
             - type: tune
               abc: |+
@@ -215,7 +215,7 @@
               file: saxy/mrs-heidi-hendy
         - name: Waltz
           type: set
-          slug: waltz
+          slug: waltz-1
           content:
             - type: tune
               abc: |+
@@ -235,7 +235,7 @@
               file: saxy/hirondelles
         - name: Bourée 2
           type: set
-          slug: bourée-2
+          slug: bourée-2-1
           content:
             - type: tune
               abc: |
@@ -253,7 +253,7 @@
               file: saxy/de-montford
         - name: Hanter dro
           type: set
-          slug: hanter-dro
+          slug: hanter-dro-0
           content:
             - type: tune
               abc: |
@@ -273,7 +273,7 @@
               file: saxy/hanter-dro
         - name: Waltz 8
           type: set
-          slug: waltz-8
+          slug: waltz-8-0
           content:
             - type: tune
               abc: |
@@ -292,7 +292,7 @@
               file: saxy/chameleon
         - name: Circassian
           type: set
-          slug: circassian
+          slug: circassian-0
           content:
             - type: tune
               abc: |
@@ -311,7 +311,7 @@
               file: saxy/pericondine
         - name: Bouree
           type: set
-          slug: bourée-3
+          slug: bourée-3-0
           content:
             - type: tune
               abc: |+
@@ -328,7 +328,7 @@
               file: saxy/bourree
         - name: Laride
           type: set
-          slug: laride
+          slug: laride-0
           content:
             - type: tune
               abc: |
@@ -343,7 +343,7 @@
               file: saxy/laride
         - name: Mazurka
           type: set
-          slug: mazurka
+          slug: mazurka-1
           content:
             - type: tune
               abc: |
@@ -365,7 +365,7 @@
               file: saxy/parachute
         - name: Scottishe
           type: set
-          slug: scottishe
+          slug: scottishe-1
           content:
             - type: tune
               abc: |
