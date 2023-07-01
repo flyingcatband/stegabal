@@ -6,7 +6,7 @@
 <svelte:head><title>Flying Cat Choonbook</title></svelte:head>
 
 <main>
-	<h1><a href="/tunebook/tunebook">Choonbook!</a></h1>
+	<h1><a href="/">Choonbook!</a></h1>
 	{#if $page.url.pathname.split('/').length > 3}
 		<a href="."><BackButton /></a>
 	{/if}

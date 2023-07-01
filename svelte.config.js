@@ -15,7 +15,7 @@ const config = {
 			fallback: 'index.html'
 		}),
 		prerender: {
-			entries: ['*', '/tunebook/tunebook']
+			entries: ['*']
 		}
 	}
 };

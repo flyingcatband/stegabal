@@ -10,7 +10,7 @@
 </script>
 
 <h2>
-	<a href="..">{data.folder.name}</a> &mdash; <a href=".">{data.type.name}</a> &mdash; {set.name}
+	<a href=".">Choonz</a> &mdash; {set.name}
 </h2>
 {#if previousSet}
 	<a href={previousSet.slug}>Previous set</a>
