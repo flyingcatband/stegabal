@@ -3,7 +3,7 @@
 	import { renderAbc } from 'abcjs';
 	import KeySelect from '$lib/KeySelect.svelte';
 	import Tune from '$lib/Tune.svelte';
-	import { get, writable } from 'svelte/store';
+	import { writable } from 'svelte/store';
 
 	let visualTranspose = 0;
 	export let set;
@@ -14,7 +14,7 @@
 	$: visible[displayFrom[displayFrom.length - 1]] =
 		visible[displayFrom[displayFrom.length - 1]] || true;
 	let refreshVisibility = 0;
-	$: displayFrom && refreshVisibility++;
+	// $: displayFrom && refreshVisibility++;
 
 	let offsets = new Map();
 
@@ -26,19 +26,6 @@
 	}
 </script>
 
-<!-- {#if displayFrom.length > 1}
-	<button
-		on:click={() => {
-			displayFrom.pop();
-			displayFrom = displayFrom;
-		}}>Back</button
-	>{:else}<button disabled>Back</button>
-{/if}
-{#if !visible[visible.length - 1]}
-	<button on:click={() => (displayFrom = [...displayFrom, visible.indexOf(false)])}>Next</button>
-{:else}
-	<button disabled>Next</button>
-{/if} -->
 {#each set.content as tune, i}
 	{#if i >= displayFrom[displayFrom.length - 1]}
 		<div class="visible-{visible[i]} tune">

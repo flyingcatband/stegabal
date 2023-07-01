@@ -179,7 +179,6 @@
                 T:Polska Från Mörkö
                 K:A
                 C:Unknown
-                %Z:From Oiseaux de nuit, track 1 (Duo Tanghe-Coudroy)
                 M:3/4
                 L:1/8
                 Q: 1/4=107
@@ -197,17 +196,16 @@
             - type: tune
               abc: |+
                 X:1
-                T:Christy Barry's
-                Z:Jon Kiparsky
-                S:https://thesession.org/tunes/843#setting843
-                R:jig
-                M:6/8
-                L:1/8
-                K:Gmaj
-                |:G3 BAG|A2B d2e|ged BAG|A3 BGE|
-                G3 BAG |A2B d2e|ged BAG|A2G G3:|
-                g3 efg|a3 d2e|ged BAG|A3 BGE|
-                G3 BAG |A2B d2e|ged BAG|A2G G3:|
+                T: Oblique
+                C: Niall Vallely
+                R: jig
+                M: 6/8
+                L: 1/8
+                K: Emin
+                |: EGA B2A | AGB AGE | B2G AGE | GAA AGE |
+                EGA B2A | AGB AGE | B2G AGE | DEE E3 ::
+                DEE GEE | AAB AGE | DEE GEE | B2G AGE |
+                DEE GEE | AAB AGE | B2G AGE | DEE EEE :|
 
               slug: christy-barrys
               file: saxy/christy-barrys
